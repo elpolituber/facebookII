@@ -1,0 +1,52 @@
+ usuarios{
+	nombre var 36
+	apellido 200
+	correo 200
+	contraseña 40
+	fecha date 
+	genero
+	rol //opcional
+	foto 
+	
+}
+plublicaciones{
+	<usuario > //relacion
+	contenido
+	create_add//fechas
+	
+}
+comentarios{
+	<usuario>
+	tipo de comentario pre 
+	comentario 2000
+}
+fotos{
+	<usuario> 
+	imagen
+	
+}
+chads{
+	<usuario>
+	de 
+	para
+	mensaje
+	fecha
+}
+c_chads{
+	de 
+	para
+}
+notificaciones{
+	<usuario>
+	fecha 
+
+}
+comentarios{
+	<usuario>
+	comentario
+	fecha
+	publicacion
+}
+solicitudes{
+}
+ 
